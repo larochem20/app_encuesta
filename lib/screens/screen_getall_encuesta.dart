@@ -24,7 +24,7 @@ class _screen_getall_encuestaState extends State<screen_getall_encuesta> {
   void eliminarEncuestaYActualizarLista(String encuestaID) async {
     await eliminarEncuesta(encuestaID);
     setState(() {
-      // Aquí debes actualizar la lista de encuestas después de eliminar
+    
     });
   }
 
