@@ -21,10 +21,7 @@ class DefaultFirebaseOptions {
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for android - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return android;
       case TargetPlatform.iOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for ios - '
@@ -60,5 +57,13 @@ class DefaultFirebaseOptions {
     authDomain: 'encuesta-prue.firebaseapp.com',
     storageBucket: 'encuesta-prue.appspot.com',
     measurementId: 'G-W9S4R43T4S',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyCLPpabPxJ4iVu6gtzgikTZY16xY2RAiro',
+    appId: '1:816564216603:android:b2b3a7196ba0add3c8a9be',
+    messagingSenderId: '816564216603',
+    projectId: 'encuesta-prue',
+    storageBucket: 'encuesta-prue.appspot.com',
   );
 }

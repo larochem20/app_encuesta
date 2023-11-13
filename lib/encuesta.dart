@@ -26,3 +26,7 @@ Future<Map<String, dynamic>> obtenerDetallesEncuesta(String encuestaID) async {
     return Map<String, dynamic>(); 
   }
 }
+//eliminar encuesta 
+Future<void> eliminarEncuesta(String encuestaID) async {
+  await FirebaseFirestore.instance.collection('encuestas').doc(encuestaID).delete();
+}

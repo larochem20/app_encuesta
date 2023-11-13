@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816564216603",
+    "project_id": "encuesta-prue",
+    "storage_bucket": "encuesta-prue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816564216603:android:b2b3a7196ba0add3c8a9be",
+        "android_client_info": {
+          "package_name": "com.example.flutter_encuesta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816564216603-ifq5ukiclfpkf2lp99699f17rggcor2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLPpabPxJ4iVu6gtzgikTZY16xY2RAiro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816564216603-ifq5ukiclfpkf2lp99699f17rggcor2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

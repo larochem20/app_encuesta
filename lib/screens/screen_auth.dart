@@ -62,10 +62,6 @@ class screen_auth extends StatelessWidget {
               ),
             ),
             ElevatedButton(
-              onPressed: registrarUsuario,
-              child: Text('Registrarse'),
-            ),
-            ElevatedButton(
               onPressed: () => iniciarSesion(context),
               child: Text('Iniciar Sesión'),
             ),
